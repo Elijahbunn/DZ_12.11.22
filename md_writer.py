@@ -1,8 +1,6 @@
-#import constructor as cons
-
-list_me = ['Kich', 'Urusai', 'goblin', 21, 189, 'coat, boots, pants',
-            'pointed nose, brown eyes, high forehead',
-            'scar on left cheek', 3, 4, 2, 5, 32, 4]
+# list_me = ['Kich', 'Urusai', 'goblin', 21, 189, 'coat, boots, pants',
+#             'pointed nose, brown eyes, high forehead',
+#             'scar on left cheek', 3, 4, 2, 5, 32, 4]
 
 def text_md(list1):
     list_txt = ['**', '\n\n', 'name: ', 'surname: ', 'race: ', 'age: ', 'growth: ',
@@ -34,4 +32,4 @@ def text_md(list1):
         # data.write('magic: ' + '**' + str(list1[13]) + '**' + '\n\n')
 
 
-text_md(list_me)
+# text_md(list_me)
